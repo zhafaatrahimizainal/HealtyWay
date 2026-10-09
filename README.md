@@ -1,7 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://drive.google.com/file/d/1UXcqZfs2kQOaeDKnVMN8Evcuwq8vbHl9/view?usp=sharing" />
-</div>
-
 A modern website for **HealtyWay**, showcasing artisanal milk and fresh fruit drinks with a fresh, product-focused presentation.
 
 🌐 **Live Website:** https://healtyway.netlify.app/
