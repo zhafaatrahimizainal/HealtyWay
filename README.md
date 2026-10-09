@@ -1,20 +1,32 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+<img width="1200" height="475" alt="GHBanner" src="https://photos.app.goo.gl/eWFCRpRfV6kee7Hh6" />
 </div>
 
-# Run and deploy your AI Studio app
+A modern website for **HealtyWay**, showcasing artisanal milk and fresh fruit drinks with a fresh, product-focused presentation.
 
-This contains everything you need to run your app locally.
+🌐 **Live Website:** https://healtyway.netlify.app/
 
-View your app in AI Studio: https://ai.studio/apps/a0fd0e1f-76f1-40be-8ebd-cf3bea9b5a7d
+## About the Project
 
-## Run Locally
+HealtyWay is a beverage-focused web experience designed to present its products and brand identity in an inviting, approachable way. The website gives visitors a place to explore the brand and discover its milk and fruit drink offerings.
 
-**Prerequisites:**  Node.js
+## Highlights
 
+- **Product showcase** — presents the brand's beverage offerings.
+- **Fresh visual identity** — supports a clean, approachable food-and-drink brand experience.
+- **Brand presentation** — introduces HealtyWay through a dedicated website.
+- **Accessible online experience** — available directly through a web browser.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Live Demo
+
+Visit the deployed website:
+
+**https://healtyway.netlify.app/**
+
+## Getting Started
+
+To run the project locally, clone the source repository and follow the setup instructions for the framework and package manager used by the project.
+
+```bash
+git clone <your-repository-url>
+cd <project-folder>
