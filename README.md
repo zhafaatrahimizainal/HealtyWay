@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="[[https://photos.app.goo.gl/eWFCRpRfV6kee7Hh6](https://photos.app.goo.gl/SHEpW6AkbhC8SNEz7](https://photos.google.com/album/AF1QipOuBYgVqgHRAboGy1BwKZAXrxvmobKdDzrGU8o8/photo/AF1QipMw46KLpyNDN7_L3YHPJk6Azt-ePB-87TDFuWIM))" />
+<img width="1200" height="475" alt="GHBanner" src="https://photos.google.com/album/AF1QipOuBYgVqgHRAboGy1BwKZAXrxvmobKdDzrGU8o8/photo/AF1QipMw46KLpyNDN7_L3YHPJk6Azt-ePB-87TDFuWIM" />
 </div>
 
 A modern website for **HealtyWay**, showcasing artisanal milk and fresh fruit drinks with a fresh, product-focused presentation.
