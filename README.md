@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://photos.app.goo.gl/eWFCRpRfV6kee7Hh6" />
+<img width="1200" height="475" alt="GHBanner" src="[https://photos.app.goo.gl/eWFCRpRfV6kee7Hh6](https://photos.app.goo.gl/SHEpW6AkbhC8SNEz7)" />
 </div>
 
 A modern website for **HealtyWay**, showcasing artisanal milk and fresh fruit drinks with a fresh, product-focused presentation.
@@ -28,5 +28,5 @@ Visit the deployed website:
 To run the project locally, clone the source repository and follow the setup instructions for the framework and package manager used by the project.
 
 ```bash
-git clone <your-repository-url>
-cd <project-folder>
+git clone [<your-repository-url>](https://github.com/zhafaatrahimizainal/HealtyWay.git)
+cd HealtyWay
