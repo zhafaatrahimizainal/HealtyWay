@@ -1,0 +1,6 @@
+{
+  "name": "HealtyWay - Milk & Fruit Drink Shop Profile",
+  "description": "Artisanal organic milk & cold-pressed fresh fruit beverage laboratory. Premium botanical drinks, custom nutrition balancer, and farm-to-bottle craft.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

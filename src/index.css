@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #e5f5eb;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f3d1f;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a7c46;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #399f5d;
+}
+
+/* CoinCompass Lush Smooth Green Background (Exact Match to Reference Screenshot) */
+.bg-coincompass-green {
+  background-color: #124e27;
+  background-image: 
+    radial-gradient(ellipse at 35% 0%, rgba(190, 242, 100, 0.38) 0%, rgba(34, 197, 94, 0.22) 35%, transparent 68%),
+    radial-gradient(ellipse at 85% 35%, rgba(74, 222, 128, 0.25) 0%, transparent 55%),
+    radial-gradient(circle at 10% 70%, rgba(34, 197, 94, 0.18) 0%, transparent 50%),
+    repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.02) 0px, rgba(255, 255, 255, 0.02) 1px, transparent 1px, transparent 38px),
+    linear-gradient(135deg, #0e3d1d 0%, #15582c 28%, #1c7038 52%, #145429 82%, #0d3619 100%);
+  background-attachment: fixed;
+}
+
+/* CoinCompass Glass Cards */
+.cc-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 10px 30px -4px rgba(7, 34, 17, 0.2);
+  border-radius: 1.25rem;
+  color: #0c2417;
+}
+
+.cc-card-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.cc-card-hover:hover {
+  background: #ffffff;
+  border-color: rgba(190, 242, 100, 0.7);
+  box-shadow: 0 16px 36px -4px rgba(7, 34, 17, 0.3);
+  transform: translateY(-2px);
+}
+
+/* CoinCompass Neon Lime CTA Button */
+.btn-lime {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #bef264;
+  color: #051a0b;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 0.625rem 1.375rem;
+  font-size: 0.875rem;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(190, 242, 100, 0.35);
+  cursor: pointer;
+}
+.btn-lime:hover {
+  background-color: #d9f99d;
+  box-shadow: 0 6px 22px rgba(190, 242, 100, 0.5);
+  transform: translateY(-1px);
+}
+
+/* CoinCompass Secondary Pill Button */
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 0.625rem 1.375rem;
+  font-size: 0.875rem;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+.btn-ghost:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+}
+
+/* Background glows */
+.radial-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(190, 242, 100, 0.25) 0%, rgba(34, 197, 94, 0.12) 45%, transparent 75%);
+}
